@@ -1,7 +1,9 @@
-future
-gym==0.9.5
 numpy
 scipy
+git+https://github.com/pybox2d/pybox2d
+gym[box2d]
+tensorflow
+keras
 matplotlib
-six
--e .
+pyglet
+h5py
